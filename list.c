@@ -17,3 +17,7 @@ Node *SLL_CreateNode(int newData) {
     NewNode->NextNode = NULL;
     return NewNode;
 }
+
+void SLL_DestroyNode (Node* node) {
+    free(node);
+}
