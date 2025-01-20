@@ -46,17 +46,17 @@ cmake_ninja_workdir = /Users/mungdori00/CLionProjects/dataStructure/cmake-build-
 
 build cmake_object_order_depends_target_dataStructure: phony || CMakeFiles/dataStructure.dir
 
-build CMakeFiles/dataStructure.dir/01/DoublyLinkedList/DoublyLinkedList.c.o: C_COMPILER__dataStructure_Debug /Users/mungdori00/CLionProjects/dataStructure/01/DoublyLinkedList/DoublyLinkedList.c || cmake_object_order_depends_target_dataStructure
-  DEP_FILE = CMakeFiles/dataStructure.dir/01/DoublyLinkedList/DoublyLinkedList.c.o.d
+build CMakeFiles/dataStructure.dir/02/ArrayStack/ArrayStack.c.o: C_COMPILER__dataStructure_Debug /Users/mungdori00/CLionProjects/dataStructure/02/ArrayStack/ArrayStack.c || cmake_object_order_depends_target_dataStructure
+  DEP_FILE = CMakeFiles/dataStructure.dir/02/ArrayStack/ArrayStack.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics -std=gnu11
   OBJECT_DIR = CMakeFiles/dataStructure.dir
-  OBJECT_FILE_DIR = CMakeFiles/dataStructure.dir/01/DoublyLinkedList
+  OBJECT_FILE_DIR = CMakeFiles/dataStructure.dir/02/ArrayStack
 
-build CMakeFiles/dataStructure.dir/01/DoublyLinkedList/Test_DoublyLinkedList.c.o: C_COMPILER__dataStructure_Debug /Users/mungdori00/CLionProjects/dataStructure/01/DoublyLinkedList/Test_DoublyLinkedList.c || cmake_object_order_depends_target_dataStructure
-  DEP_FILE = CMakeFiles/dataStructure.dir/01/DoublyLinkedList/Test_DoublyLinkedList.c.o.d
+build CMakeFiles/dataStructure.dir/02/ArrayStack/Test_ArrayStack.c.o: C_COMPILER__dataStructure_Debug /Users/mungdori00/CLionProjects/dataStructure/02/ArrayStack/Test_ArrayStack.c || cmake_object_order_depends_target_dataStructure
+  DEP_FILE = CMakeFiles/dataStructure.dir/02/ArrayStack/Test_ArrayStack.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics -std=gnu11
   OBJECT_DIR = CMakeFiles/dataStructure.dir
-  OBJECT_FILE_DIR = CMakeFiles/dataStructure.dir/01/DoublyLinkedList
+  OBJECT_FILE_DIR = CMakeFiles/dataStructure.dir/02/ArrayStack
 
 
 # =============================================================================
@@ -66,7 +66,7 @@ build CMakeFiles/dataStructure.dir/01/DoublyLinkedList/Test_DoublyLinkedList.c.o
 #############################################
 # Link the executable dataStructure
 
-build dataStructure: C_EXECUTABLE_LINKER__dataStructure_Debug CMakeFiles/dataStructure.dir/01/DoublyLinkedList/DoublyLinkedList.c.o CMakeFiles/dataStructure.dir/01/DoublyLinkedList/Test_DoublyLinkedList.c.o
+build dataStructure: C_EXECUTABLE_LINKER__dataStructure_Debug CMakeFiles/dataStructure.dir/02/ArrayStack/ArrayStack.c.o CMakeFiles/dataStructure.dir/02/ArrayStack/Test_ArrayStack.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/dataStructure.dir
   POST_BUILD = :
@@ -83,17 +83,17 @@ build dataStructure: C_EXECUTABLE_LINKER__dataStructure_Debug CMakeFiles/dataStr
 
 build cmake_object_order_depends_target_testLinkedList: phony || CMakeFiles/testLinkedList.dir
 
-build CMakeFiles/testLinkedList.dir/01/DoublyLinkedList/Test_DoublyLinkedList.c.o: C_COMPILER__testLinkedList_Debug /Users/mungdori00/CLionProjects/dataStructure/01/DoublyLinkedList/Test_DoublyLinkedList.c || cmake_object_order_depends_target_testLinkedList
-  DEP_FILE = CMakeFiles/testLinkedList.dir/01/DoublyLinkedList/Test_DoublyLinkedList.c.o.d
+build CMakeFiles/testLinkedList.dir/02/ArrayStack/Test_ArrayStack.c.o: C_COMPILER__testLinkedList_Debug /Users/mungdori00/CLionProjects/dataStructure/02/ArrayStack/Test_ArrayStack.c || cmake_object_order_depends_target_testLinkedList
+  DEP_FILE = CMakeFiles/testLinkedList.dir/02/ArrayStack/Test_ArrayStack.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics -std=gnu11
   OBJECT_DIR = CMakeFiles/testLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles/testLinkedList.dir/01/DoublyLinkedList
+  OBJECT_FILE_DIR = CMakeFiles/testLinkedList.dir/02/ArrayStack
 
-build CMakeFiles/testLinkedList.dir/01/DoublyLinkedList/DoublyLinkedList.c.o: C_COMPILER__testLinkedList_Debug /Users/mungdori00/CLionProjects/dataStructure/01/DoublyLinkedList/DoublyLinkedList.c || cmake_object_order_depends_target_testLinkedList
-  DEP_FILE = CMakeFiles/testLinkedList.dir/01/DoublyLinkedList/DoublyLinkedList.c.o.d
+build CMakeFiles/testLinkedList.dir/02/ArrayStack/ArrayStack.c.o: C_COMPILER__testLinkedList_Debug /Users/mungdori00/CLionProjects/dataStructure/02/ArrayStack/ArrayStack.c || cmake_object_order_depends_target_testLinkedList
+  DEP_FILE = CMakeFiles/testLinkedList.dir/02/ArrayStack/ArrayStack.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics -std=gnu11
   OBJECT_DIR = CMakeFiles/testLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles/testLinkedList.dir/01/DoublyLinkedList
+  OBJECT_FILE_DIR = CMakeFiles/testLinkedList.dir/02/ArrayStack
 
 
 # =============================================================================
@@ -103,7 +103,7 @@ build CMakeFiles/testLinkedList.dir/01/DoublyLinkedList/DoublyLinkedList.c.o: C_
 #############################################
 # Link the executable testLinkedList
 
-build testLinkedList: C_EXECUTABLE_LINKER__testLinkedList_Debug CMakeFiles/testLinkedList.dir/01/DoublyLinkedList/Test_DoublyLinkedList.c.o CMakeFiles/testLinkedList.dir/01/DoublyLinkedList/DoublyLinkedList.c.o
+build testLinkedList: C_EXECUTABLE_LINKER__testLinkedList_Debug CMakeFiles/testLinkedList.dir/02/ArrayStack/Test_ArrayStack.c.o CMakeFiles/testLinkedList.dir/02/ArrayStack/ArrayStack.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/testLinkedList.dir
   POST_BUILD = :
