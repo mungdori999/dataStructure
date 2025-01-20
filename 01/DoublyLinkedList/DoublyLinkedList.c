@@ -67,6 +67,19 @@ void DLL_RemoveNode(Node **Head, Node *Remove) {
     }
 }
 
+void PrintReverse(Node *Head) {
+    int i = 0;
+    Node *Current = Head;
+    while (Current->NextNode != NULL) {
+        Current = Current->NextNode;
+        i++;
+    }
+    for (; i >= 0; i--) {
+        printf("List[%d] : %d\n", i, Current->Data);
+        Current = Current->PrevNode;
+    }
+}
+
 //  노드 탐색 
 Node *DLL_GetNodeAt(Node *Head, int Location) {
     Node *Current = Head;

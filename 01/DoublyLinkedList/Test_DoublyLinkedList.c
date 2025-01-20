@@ -16,12 +16,13 @@ int main( void )
     }
 
     //  리스트 출력 
-    Count = DLL_GetNodeCount( List );
-    for ( i = 0; i<Count; i++ )
-    {
-        Current = DLL_GetNodeAt( List, i );
-        printf( "List[%d] : %d\n", i, Current->Data );
-    }
+//    Count = DLL_GetNodeCount( List );
+//    for ( i = 0; i<Count; i++ )
+//    {
+//        Current = DLL_GetNodeAt( List, i );
+//        printf( "List[%d] : %d\n", i, Current->Data );
+//    }
+    PrintReverse(List);
 
     //  리스트의 세번째 칸 뒤에 노드 삽입 
     printf( "\nInserting 3000 After [2]...\n\n" );
@@ -32,11 +33,15 @@ int main( void )
 
     //  리스트 출력 
     Count = DLL_GetNodeCount( List );
+
+
+
     for ( i = 0; i<Count; i++ )
     {
         Current = DLL_GetNodeAt( List, i );
         printf( "List[%d] : %d\n", i, Current->Data );
     }
+
 
     //  모든 노드를 메모리에서 제거     
     printf( "\nDestroying List...\n" );
