@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "dataStructure"
+			"path" : "testLinkedList"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 15,
 				"parent" : 0
 			}
 		]
@@ -52,11 +52,12 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
-	"id" : "dataStructure::@6890427a1f51a3e7e1df",
+	"id" : "testLinkedList::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,8 +73,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "dataStructure",
-	"nameOnDisk" : "dataStructure",
+	"name" : "testLinkedList",
+	"nameOnDisk" : "testLinkedList",
 	"paths" : 
 	{
 		"build" : ".",
@@ -85,7 +86,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -94,7 +96,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.c",
+			"path" : "01/DoublyLinkedList/Test_DoublyLinkedList.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "01/DoublyLinkedList/DoublyLinkedList.c",
 			"sourceGroupIndex" : 0
 		}
 	],

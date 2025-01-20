@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/mungdori00/CLionProjects/datastructure/cmake-build-debug"
+			"value" : "/Users/mungdori00/CLionProjects/dataStructure/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mungdori00/CLionProjects/datastructure/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/mungdori00/CLionProjects/dataStructure/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -1015,7 +1015,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mungdori00/CLionProjects/datastructure/cmake-build-debug"
+			"value" : "/Users/mungdori00/CLionProjects/dataStructure/cmake-build-debug"
 		},
 		{
 			"name" : "dataStructure_IS_TOP_LEVEL",
@@ -1039,7 +1039,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mungdori00/CLionProjects/datastructure"
+			"value" : "/Users/mungdori00/CLionProjects/dataStructure"
 		}
 	],
 	"kind" : "cache",

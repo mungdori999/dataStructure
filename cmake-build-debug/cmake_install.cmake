@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mungdori00/CLionProjects/datastructure
+# Install script for directory: /Users/mungdori00/CLionProjects/dataStructure
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/mungdori00/CLionProjects/datastructure/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mungdori00/CLionProjects/dataStructure/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
