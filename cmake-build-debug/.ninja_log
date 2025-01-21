@@ -1,18 +1,15 @@
 # ninja log v5
 1	65	1737333326640902926	CMakeFiles/dataStructure.dir/01/LinkedList/LinkedList.c.o	aae00c02257374ea
+0	41	1737339252316135243	CMakeFiles/dataStructure.dir/02/LinkedListStack/LinkedListStack.c.o	69603e441505c7dc
 1	64	1737333326639799911	CMakeFiles/dataStructure.dir/01/LinkedList/Test_LinkedList.c.o	d59d5681f99fe2fd
 0	33	1737093898998614586	CMakeFiles/dataStructure.dir/main.c.o	60e09d5b398eea92
-0	41	1737336978532864661	build.ninja	464a249c4a2c9697
-187	234	1737334461325509012	dataStructure	445a109fc5cdb68
-1	53	1737334357891564799	CMakeFiles/dataStructure.dir/01/DoublyLinkedList/Test_DoublyLinkedList.c.o	b30e890e58efc13f
+0	41	1737418752763902583	build.ninja	464a249c4a2c9697
+41	88	1737339252362641887	dataStructure	d50cc5de8d252be7
 1	186	1737334461277786830	CMakeFiles/dataStructure.dir/01/DoublyLinkedList/DoublyLinkedList.c.o	124d00ada14ac812
-0	80	1737336982472477144	CMakeFiles/dataStructure.dir/02/ArrayStack/ArrayStack.c.o	3198355fe4ecd2de
-1	80	1737336982472486977	CMakeFiles/dataStructure.dir/02/ArrayStack/Test_ArrayStack.c.o	76b4096daf7f39d8
-80	126	1737336982518960644	dataStructure	c054082393da406a
-1	35	1737337718269085454	CMakeFiles/dataStructure.dir/02/ArrayStack/ArrayStack.c.o	3198355fe4ecd2de
-1	35	1737337718268666919	CMakeFiles/dataStructure.dir/02/ArrayStack/Test_ArrayStack.c.o	76b4096daf7f39d8
-35	79	1737337718312464397	dataStructure	c054082393da406a
-1	34	1737337738666889038	CMakeFiles/dataStructure.dir/02/ArrayStack/Test_ArrayStack.c.o	76b4096daf7f39d8
-34	77	1737337738710338646	dataStructure	c054082393da406a
+1	53	1737334357891564799	CMakeFiles/dataStructure.dir/01/DoublyLinkedList/Test_DoublyLinkedList.c.o	b30e890e58efc13f
 1	35	1737337764496259282	CMakeFiles/dataStructure.dir/02/ArrayStack/ArrayStack.c.o	3198355fe4ecd2de
-35	79	1737337764540361589	dataStructure	c054082393da406a
+1	34	1737337738666889038	CMakeFiles/dataStructure.dir/02/ArrayStack/Test_ArrayStack.c.o	76b4096daf7f39d8
+0	39	1737339252314190273	CMakeFiles/dataStructure.dir/02/LinkedListStack/Test_LinkedListStack.c.o	7ef8edcb25234f43
+0	84	1737418757027337907	CMakeFiles/dataStructure.dir/03/CircularQueue/CircularQueue.c.o	2bf1d811c93651b9
+1	84	1737418757027334115	CMakeFiles/dataStructure.dir/03/CircularQueue/Test_CircularQueue.c.o	e3a61c934270016c
+84	138	1737418757081035220	dataStructure	7068673b17ee2550
