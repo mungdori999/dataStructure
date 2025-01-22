@@ -5,12 +5,12 @@ set(CMAKE_C_STANDARD 11)
 
 # 소스 파일 목록
 set(SOURCES
-        04/BinaryTree/BinaryTree.c
-        04/BinaryTree/Test_BinaryTree.c
+        04/DisjointSet/DisjointSet.c
+        04/DisjointSet/Test_DisjointSet.c
         )
 
 # 실행 파일 생성
 add_executable(dataStructure ${SOURCES})
 
-add_executable(testLinkedList 04/BinaryTree/BinaryTree.c
-        04/BinaryTree/Test_BinaryTree.c)
+add_executable(testLinkedList 04/DisjointSet/DisjointSet.c
+        04/DisjointSet/Test_DisjointSet.c)

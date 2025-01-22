@@ -96,13 +96,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "04/LCRSTree/LCRSTree.c",
+			"path" : "04/DisjointSet/DisjointSet.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "04/LCRSTree/Test_LCRSTree.c",
+			"path" : "04/DisjointSet/Test_DisjointSet.c",
 			"sourceGroupIndex" : 0
 		}
 	],
