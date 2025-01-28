@@ -46,17 +46,17 @@ cmake_ninja_workdir = /Users/mungdori00/CLionProjects/dataStructure/cmake-build-
 
 build cmake_object_order_depends_target_dataStructure: phony || CMakeFiles/dataStructure.dir
 
-build CMakeFiles/dataStructure.dir/01/DoublyLinkedList/DoublyLInkedLIst.c.o: C_COMPILER__dataStructure_Debug /Users/mungdori00/CLionProjects/dataStructure/01/DoublyLinkedList/DoublyLInkedLIst.c || cmake_object_order_depends_target_dataStructure
-  DEP_FILE = CMakeFiles/dataStructure.dir/01/DoublyLinkedList/DoublyLInkedLIst.c.o.d
+build CMakeFiles/dataStructure.dir/08/SimpleHashTable/SimpleHashTable.c.o: C_COMPILER__dataStructure_Debug /Users/mungdori00/CLionProjects/dataStructure/08/SimpleHashTable/SimpleHashTable.c || cmake_object_order_depends_target_dataStructure
+  DEP_FILE = CMakeFiles/dataStructure.dir/08/SimpleHashTable/SimpleHashTable.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics -std=gnu11
   OBJECT_DIR = CMakeFiles/dataStructure.dir
-  OBJECT_FILE_DIR = CMakeFiles/dataStructure.dir/01/DoublyLinkedList
+  OBJECT_FILE_DIR = CMakeFiles/dataStructure.dir/08/SimpleHashTable
 
-build CMakeFiles/dataStructure.dir/05/InsertionSort/InsertionSort.c.o: C_COMPILER__dataStructure_Debug /Users/mungdori00/CLionProjects/dataStructure/05/InsertionSort/InsertionSort.c || cmake_object_order_depends_target_dataStructure
-  DEP_FILE = CMakeFiles/dataStructure.dir/05/InsertionSort/InsertionSort.c.o.d
+build CMakeFiles/dataStructure.dir/08/SimpleHashTable/Test_SimpleHashTable.c.o: C_COMPILER__dataStructure_Debug /Users/mungdori00/CLionProjects/dataStructure/08/SimpleHashTable/Test_SimpleHashTable.c || cmake_object_order_depends_target_dataStructure
+  DEP_FILE = CMakeFiles/dataStructure.dir/08/SimpleHashTable/Test_SimpleHashTable.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics -std=gnu11
   OBJECT_DIR = CMakeFiles/dataStructure.dir
-  OBJECT_FILE_DIR = CMakeFiles/dataStructure.dir/05/InsertionSort
+  OBJECT_FILE_DIR = CMakeFiles/dataStructure.dir/08/SimpleHashTable
 
 
 # =============================================================================
@@ -66,7 +66,7 @@ build CMakeFiles/dataStructure.dir/05/InsertionSort/InsertionSort.c.o: C_COMPILE
 #############################################
 # Link the executable dataStructure
 
-build dataStructure: C_EXECUTABLE_LINKER__dataStructure_Debug CMakeFiles/dataStructure.dir/01/DoublyLinkedList/DoublyLInkedLIst.c.o CMakeFiles/dataStructure.dir/05/InsertionSort/InsertionSort.c.o
+build dataStructure: C_EXECUTABLE_LINKER__dataStructure_Debug CMakeFiles/dataStructure.dir/08/SimpleHashTable/SimpleHashTable.c.o CMakeFiles/dataStructure.dir/08/SimpleHashTable/Test_SimpleHashTable.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/dataStructure.dir
   POST_BUILD = :
@@ -83,17 +83,17 @@ build dataStructure: C_EXECUTABLE_LINKER__dataStructure_Debug CMakeFiles/dataStr
 
 build cmake_object_order_depends_target_testLinkedList: phony || CMakeFiles/testLinkedList.dir
 
-build CMakeFiles/testLinkedList.dir/01/DoublyLinkedList/DoublyLInkedLIst.c.o: C_COMPILER__testLinkedList_Debug /Users/mungdori00/CLionProjects/dataStructure/01/DoublyLinkedList/DoublyLInkedLIst.c || cmake_object_order_depends_target_testLinkedList
-  DEP_FILE = CMakeFiles/testLinkedList.dir/01/DoublyLinkedList/DoublyLInkedLIst.c.o.d
+build CMakeFiles/testLinkedList.dir/08/SimpleHashTable/SimpleHashTable.c.o: C_COMPILER__testLinkedList_Debug /Users/mungdori00/CLionProjects/dataStructure/08/SimpleHashTable/SimpleHashTable.c || cmake_object_order_depends_target_testLinkedList
+  DEP_FILE = CMakeFiles/testLinkedList.dir/08/SimpleHashTable/SimpleHashTable.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics -std=gnu11
   OBJECT_DIR = CMakeFiles/testLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles/testLinkedList.dir/01/DoublyLinkedList
+  OBJECT_FILE_DIR = CMakeFiles/testLinkedList.dir/08/SimpleHashTable
 
-build CMakeFiles/testLinkedList.dir/05/InsertionSort/InsertionSort.c.o: C_COMPILER__testLinkedList_Debug /Users/mungdori00/CLionProjects/dataStructure/05/InsertionSort/InsertionSort.c || cmake_object_order_depends_target_testLinkedList
-  DEP_FILE = CMakeFiles/testLinkedList.dir/05/InsertionSort/InsertionSort.c.o.d
+build CMakeFiles/testLinkedList.dir/08/SimpleHashTable/Test_SimpleHashTable.c.o: C_COMPILER__testLinkedList_Debug /Users/mungdori00/CLionProjects/dataStructure/08/SimpleHashTable/Test_SimpleHashTable.c || cmake_object_order_depends_target_testLinkedList
+  DEP_FILE = CMakeFiles/testLinkedList.dir/08/SimpleHashTable/Test_SimpleHashTable.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics -std=gnu11
   OBJECT_DIR = CMakeFiles/testLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles/testLinkedList.dir/05/InsertionSort
+  OBJECT_FILE_DIR = CMakeFiles/testLinkedList.dir/08/SimpleHashTable
 
 
 # =============================================================================
@@ -103,7 +103,7 @@ build CMakeFiles/testLinkedList.dir/05/InsertionSort/InsertionSort.c.o: C_COMPIL
 #############################################
 # Link the executable testLinkedList
 
-build testLinkedList: C_EXECUTABLE_LINKER__testLinkedList_Debug CMakeFiles/testLinkedList.dir/01/DoublyLinkedList/DoublyLInkedLIst.c.o CMakeFiles/testLinkedList.dir/05/InsertionSort/InsertionSort.c.o
+build testLinkedList: C_EXECUTABLE_LINKER__testLinkedList_Debug CMakeFiles/testLinkedList.dir/08/SimpleHashTable/SimpleHashTable.c.o CMakeFiles/testLinkedList.dir/08/SimpleHashTable/Test_SimpleHashTable.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/testLinkedList.dir
   POST_BUILD = :

@@ -2,10 +2,13 @@
 triple:          'arm64-apple-darwin'
 binary-path:     SequentialSearch
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _SLL_SequentialSearch, symObjAddr: 0x0, symBinAddr: 0x100003BEC, symSize: 0x78 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _SLL_SequentialSearch, symObjAddr: 0x0, symBinAddr: 0x100003BEC, symSize: 0x78 }
-  - { offsetInCU: 0x93, offset: 0x93, size: 0x8, addend: 0x0, symName: _SSL_ArraySequentialSearch, symObjAddr: 0x78, symBinAddr: 0x100003C64, symSize: 0x88 }
-  - { offsetInCU: 0xF3, offset: 0xF3, size: 0x8, addend: 0x0, symName: _SLL_MoveToFront, symObjAddr: 0x100, symBinAddr: 0x100003CEC, symSize: 0xCC }
-  - { offsetInCU: 0x153, offset: 0x153, size: 0x8, addend: 0x0, symName: _SLL_Transpose, symObjAddr: 0x1CC, symBinAddr: 0x100003DB8, symSize: 0x114 }
-  - { offsetInCU: 0x1C1, offset: 0x1C1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2E0, symBinAddr: 0x100003ECC, symSize: 0x98 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _SLL_SequentialSearch, symObjAddr: 0x0, symBinAddr: 0x1000039E8, symSize: 0x78 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _SLL_SequentialSearch, symObjAddr: 0x0, symBinAddr: 0x1000039E8, symSize: 0x78 }
+  - { offsetInCU: 0x93, offset: 0x93, size: 0x8, addend: 0x0, symName: _SSL_ArraySequentialSearch, symObjAddr: 0x78, symBinAddr: 0x100003A60, symSize: 0x88 }
+  - { offsetInCU: 0xF3, offset: 0xF3, size: 0x8, addend: 0x0, symName: _SLL_MoveToFront, symObjAddr: 0x100, symBinAddr: 0x100003AE8, symSize: 0xCC }
+  - { offsetInCU: 0x153, offset: 0x153, size: 0x8, addend: 0x0, symName: _SLL_ArrayMoveToFront, symObjAddr: 0x1CC, symBinAddr: 0x100003BB4, symSize: 0xC0 }
+  - { offsetInCU: 0x1B3, offset: 0x1B3, size: 0x8, addend: 0x0, symName: _SLL_Transpose, symObjAddr: 0x28C, symBinAddr: 0x100003C74, symSize: 0x114 }
+  - { offsetInCU: 0x221, offset: 0x221, size: 0x8, addend: 0x0, symName: _SLL_ArrayTranspose, symObjAddr: 0x3A0, symBinAddr: 0x100003D88, symSize: 0xE4 }
+  - { offsetInCU: 0x29D, offset: 0x29D, size: 0x8, addend: 0x0, symName: _SSL_FrequencyCount, symObjAddr: 0x484, symBinAddr: 0x100003E6C, symSize: 0x4 }
+  - { offsetInCU: 0x2B2, offset: 0x2B2, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x488, symBinAddr: 0x100003E70, symSize: 0xD8 }
 ...

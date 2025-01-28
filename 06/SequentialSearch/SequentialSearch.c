@@ -97,6 +97,27 @@ Node *SLL_Transpose(Node **Head, int Target) {
     return Match;
 }
 
+int SLL_ArrayTranspose(int DataSet[], int Length, int Target) {
+    int Sequence = -1;
+    int i = 0;
+    for (i = 0; i < Length; i++) {
+        if (DataSet[i] == Target) {
+            Sequence = i;
+            if (i != 0) {
+                int Temp = DataSet[i];
+                DataSet[i] = DataSet[i - 1];
+                DataSet[i - 1] = Temp;
+            } else {
+                break;
+            }
+        }
+    }
+    return Sequence;
+}
+
+void SSL_FrequencyCount() {
+
+}
 
 int main(void) {
 
@@ -106,9 +127,10 @@ int main(void) {
 //    int sequence = SSL_ArraySequentialSearch(DataSet, Length, 2);
 //    printf("%d", sequence);
 
-    SLL_ArrayMoveToFront(DataSet,Length,3);
-    for ( int i = 0; i < Length; i++) {
-        printf("%d",DataSet[i]);
+//    SLL_ArrayMoveToFront(DataSet, Length, 6);
+    SLL_ArrayTranspose(DataSet, Length, 6);
+    for (int i = 0; i < Length; i++) {
+        printf("%d", DataSet[i]);
     }
 
 //    int i = 0;
