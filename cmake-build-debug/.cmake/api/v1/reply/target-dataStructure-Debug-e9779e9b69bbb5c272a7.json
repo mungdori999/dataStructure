@@ -96,13 +96,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "08/SimpleHashTable/SimpleHashTable.c",
+			"path" : "08/OpenAddressing/OpenAddressing.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "08/SimpleHashTable/Test_SimpleHashTable.c",
+			"path" : "08/OpenAddressing/Test_OpenAddressing.c",
 			"sourceGroupIndex" : 0
 		}
 	],
